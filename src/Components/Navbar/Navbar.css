@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar-outer{
+    /* color: white; */
+    /* font-size: 20px; */
+    font-weight: 400;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    /* background-color: aqua; */
+}
+
+.navbar-1{
+    height: 50px;
+    width: 170px;
+    background-repeat: no-repeat;
+    background-image: url('../../Assets/etrain-logo.png');
+}
+
+.navbar-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+}
+
+.navbar-btn{
+    cursor:pointer;
+    color: white;
+    padding: 20px;
+    width: 150px;
+    border-radius: 30px;
+    border: none;
+    background-image:  linear-gradient(to left, #ee390f 0%, #f9b700 51%, #ee390f 100%);
+}
+
+.navbar-item:hover{
+    cursor:pointer;
+    color:#ee390f;
+}

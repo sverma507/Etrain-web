@@ -1,0 +1,30 @@
+
+.id-card-form-details-outer{
+    border:1px solid black;
+    text-align: justify;
+    width: 500px;
+    height:605px;
+    margin-left: 20px;
+   background-color: black;
+  
+}
+.label-name, .label-id, .label-dob, .label-blood-group, .label-phone, .label-e-mail{
+    color: white;
+    font-size: 20px;
+     margin-bottom: 40px;
+     margin-top: 20px;
+     margin-left: 20px;
+}
+.input-name-text, .input-id-no-text, .input-dob-text, .input-blood-group-text, .input-phone-no-text, .input-E-mail-text{
+    width:240px;
+  padding: 15px;
+    background-color:#1a1a1a;
+  color: white;
+   height: 25px;
+   margin-left: 40px;
+
+}
+.id-detail{
+ 
+  margin-left: 150px;
+}

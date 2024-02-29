@@ -1,0 +1,132 @@
+.main{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.tesi{
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+@media (max-width: 576px){
+    .Happy {
+    margin-bottom: 50px;
+    text-align: center;
+}
+}
+@media only screen and (min-width: 768px) and (max-width: 991px){ 
+.Happy {
+    font-size: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+}
+.Happy{
+    margin-bottom: 80px;
+    text-align: center;
+    margin-top: 50px;
+
+}
+.p{
+    font-size: 14px;
+    color: #556172;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 11px;
+    margin-bottom: 10px;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.container{
+    position: relative;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%;
+    align-self: center;
+    flex: 0 0 66.666667%;
+    max-width: 66.666667%;
+}
+.row-1text{
+    
+    padding: 5px 20px;
+    background-color: #fff;
+    box-shadow: 0px 10px 30px 0px rgba(12, 46, 96, 0.1);
+    position: relative;
+    z-index: 1;
+}
+.cm-carousel{
+    margin-left:30px;
+}
+@media only screen and (min-width: 320px) and (max-width: 375px){ 
+    .main-2 {
+       width: 290px ;
+       margin: 15px;
+    }
+}
+@media  (min-width: 375px) and (max-width: 425px){ 
+    .main-2 {
+       width: 345px;
+       margin: 15px;
+    }
+}
+@media only screen and (min-width: 425px) and (max-width: 768px){ 
+    .main-2 {
+       width: 395px;
+       margin: 15px;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px){ 
+    .main-2 {
+       width: 738px;
+       margin: 10px;
+    }
+}
+@media only screen and (min-width: 1024px) and (max-width: 1440px){ 
+    .main-2 {
+       width: 994px;
+       margin: 10px;
+    }
+}
+@media only screen and (min-width: 1440px) and (max-width: 2560px){ 
+    .main-2 {
+       width:1410px ;
+       margin: 10px;
+    }
+}
+@media only screen and (max-width: 2560px){ 
+    .main-2 {
+       width:2530px ;
+       margin: 10px;
+    }
+}
+.container-2{
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+h4{
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+h5{
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    color: #888888;
+}
+
+
+
+
+

@@ -1,0 +1,91 @@
+.header {
+    width: 500px;
+    height: 150px;
+    text-align: center;
+    text-decoration: rgb(117, 79, 28);
+
+    padding-top: 40px;
+
+    border: 1px solid black;
+    border-bottom-left-radius: 70%;
+    background-color: rgb(0, 15, 48);
+}
+
+.heading-company-name {
+    font-size: 30px;
+    color: white;
+}
+
+.company-name {
+    font-size: 16px;
+    color: white;
+}
+
+.id-card-profile-image {
+
+    width: 200px;
+    height: 150px;
+    margin-top: 1px;
+}
+
+.web-developer {
+    font-size: 40px;
+    text-align: center;
+    font-weight: 800;
+    margin-top: 20px;
+
+}
+
+.id-card-details {
+    padding-left: 30px;
+    padding-bottom: 20px;
+    font-size: 16px;
+
+    color: rgb(0, 15, 48);
+
+}
+
+.name-id-card {
+    font-size: 40px;
+    font-weight: 700;
+    margin-left: 100px;
+    color: rgb(9, 15, 48);
+    margin-top: 40px;
+}
+
+.footer-id-card {
+    width: 500px;
+    height: 184px;
+    border: 1px solid black;
+    border-top-right-radius: 80%;
+    background-color: rgb(0, 15, 48);
+
+}
+
+.Idcard-outer {
+
+    border: 1px solid black;
+    width: 500px;
+    height: 600px;
+    margin-left: 20px;
+    text-align: justify;
+    background-color: bisque;
+
+
+
+
+}
+.id-detail{
+    margin-left:175px
+}
+.dob-detail{
+    margin-left:130px;
+}
+.blood-detail{
+    margin-left:130px;
+}
+.phone-detail{
+    margin-left:175px;
+}
+.email-detail{
+    margin-left:180px;}

@@ -1,0 +1,16 @@
+.id-card-id-form-parent {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1a1a1a;
+
+
+}
+
+.id-card-form-parent {
+    color: white;
+    font-size: 60px;
+    margin-top: 20px;
+    text-align: center;
+    font-weight: 800;
+    background-color: #1a1a1a;
+}

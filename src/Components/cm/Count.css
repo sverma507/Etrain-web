@@ -1,0 +1,139 @@
+.count{
+    padding: 73px 0px 73px;
+    background-image: -webkit-linear-gradient(0deg, #ee390f 0%, #f9b700 100%);
+    display: block;
+}
+
+@media (max-width: 576px){
+.count {
+    padding: 50px 0px 60px;
+    margin-right: 0px;
+}
+}
+@media only screen and (min-width: 768px) and (max-width: 991px){
+.count {
+    padding: 50px 0px 60px;
+}
+}
+@media only screen and (min-width: 992px) and (max-width: 1200px){
+.count {
+    padding: 73px 0px 73px;
+}
+}
+.count-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.count-col{
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.learning-container-count{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+@media (min-width: 576px)
+ {
+.learning-container-count{
+   max-width: 540px;
+}    
+}
+@media (min-width: 768px)
+ {
+.learning-container-count{
+    max-width: 720px;
+}    
+}
+@media (min-width: 992px)
+ {
+.learning-container-count{
+    max-width: 960px;
+}    
+}
+@media (min-width: 1200px)
+ {
+.learning-container-count{
+    max-width: 1140px;
+}    
+}
+@media only screen and (min-width: 1200px) and (max-width: 3640px) {
+    .learning-container-count{
+        max-width: 1170px;
+    }
+    
+}
+@media (min-width: 576px){
+.count-col {
+    flex: 0 0 50%;
+    max-width: 46%;
+}
+}
+@media (min-width: 992px){
+    .count-col {
+        flex: 0 0 25%;
+        max-width: 25.97%;
+    }
+    }
+.counter{
+    text-align: center;
+}   
+@media (min-width: 576px){
+    .counter {
+        margin: 20px 0px;
+    }
+    } 
+    @media only screen and (min-width: 768px) and (max-width: 991px){
+    .counter {
+        margin: 20px 0px;
+    }    
+}
+@media only screen and (min-width: 992px) and (max-width: 1200px){
+.counter {
+    margin: 20px 0px;
+}
+}
+.count-counter{
+    font-weight: 700;
+    color: white;
+    font-size: 40px;
+}
+@media (max-width: 576px){
+.count-counter {
+    line-height: 67px;
+    font-size: 40px;
+}
+}
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    .count-counter {
+        line-height: 67px;
+        font-size: 40px;
+    }    
+}
+@media only screen and (min-width: 992px) and (max-width: 1200px){
+    .count-counter {
+        line-height: 67px;
+        font-size: 40px;
+    }
+    }
+   
+     .count-text{
+        color: white;
+    font-size: 24px;
+    margin-top: 28px;
+    text-transform: capitalize;
+    position: relative;
+     } 
+        @media only screen and (min-width: 576px) and (max-width: 1200px){
+            .count-text{
+                margin-top: 10px;
+            }    
+        }  
+    
