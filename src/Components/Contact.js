@@ -30,58 +30,45 @@ const Contact = () => {
           </div>
 
           <div class='form-group'>
-            <textarea class="form-control" name="message" id="message" cols="30" rows="9" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Message'" placeholder="Enter Message"></textarea>
+            <textarea class="form-control" name="message" id="message" col="30" row="2" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Message'" placeholder="Enter Message" />
             <div className='e-name'>
               <input class="form-name" name="name" id="name" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your name'" placeholder="Enter your name" />
               <input class="form-name" name="email" id="email" type="email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter email address'" placeholder="Enter email address" />
             </div>
-            <a href='/' ><input class="form-name form-sub" name="subject" id="subject" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Subject'" placeholder="Enter Subject" />  
+            <a href='/' ><input class="form-name form-sub" name="subject" id="subject" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Subject'" placeholder="Enter Subject" />
             </a>
             <div><button class="form-btn form-name" type="submit" >Send Message</button></div>
           </div>
         </div>
         <div className='outer-2'>
-         <div className='contact-info'>   
+          <div className='contact-info'>
           </div>
           <div className='contant-media'>
-          <i class="ti-home"></i>
-            <h3>
+            {/* <i class="ti-home"></i> */}
+            <div className='h-3'>
               Buttonwood, Calfornia
-            </h3>
+            </div>
             <p>
               Rosemead, CA 91770
             </p>
-          </div>  
-            <div className='content-media'>
-              <h3>
-              <i class="ti-tablet"></i>
-                00 (440) 9865 562
-              </h3>
-              <p>
-                Mon to Fri 9 am to 6pm
-              </p>
+          </div>
+          <div className='content-media'>
+            <div className='h-3'>
+              {/* <i class="ti-tablet"></i> */}
+              00 (440) 9865 562
             </div>
-            <div className='content-media'>
-            <i class="ti-email"></i>
-              <h3>support@colorlib.com</h3>
-              <p>Send us your query anytime!</p>
-            </div>
-         </div>
+            <p>
+              Mon to Fri 9 am to 6pm
+            </p>
+          </div>
+          <div className='content-media'>
+            {/* <i class="ti-email"></i> */}
+            <div className='h-3'>support@colorlib.com</div>
+            <p>Send us your query anytime!</p>
+          </div>
         </div>
       </div>
-
-      
-
-
-
-
-
-
-
-    
-
-   
-
+    </div>
   );
 }
 

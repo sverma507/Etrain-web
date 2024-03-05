@@ -4,7 +4,16 @@
     padding: 50px;
     display: flex;
     justify-content: space-between;
-    background-image:  linear-gradient(to left, #ee390f 0%, #f9b700 51%, #ee390f 100%);;
+    background-image:  linear-gradient(to left, #ee390f 0%, #f9b700 51%, #ee390f 100%);
+
+    @media screen and (max-width:450px) {
+        /* flex-wrap: wrap; */
+        flex-direction: column;
+        height:fit-content;
+        justify-content:start;
+        padding: 10px;
+        
+    }
 }
 
 
@@ -17,6 +26,13 @@
     border-radius: 15px;
     background-color: black;
     color: white;
+
+    @media screen and (max-width:450px) {
+       padding: 5px;
+       width: 100%;
+       height: 50%; 
+       margin-bottom: 20px;
+    }
 }
 
 .form-heading{
@@ -24,8 +40,20 @@
     color: red;
     font-size: 30px;
     font-weight: 900;
+
+    @media screen and (max-width:450px) {
+        font-size: 20px;
+    }
 }
 
+.get-data{
+    @media screen and (max-width:450px) {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
 .info-box{
     padding: 10px;
     font-size: 20px;
@@ -34,15 +62,25 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+
+    @media screen and (max-width:450px) {
+        font-size: 15px;
+        width: 300px;
+    }
 }
 
 input{
     padding: 10px;
     height: 20px;
     margin-left: 20px;
+
+    @media screen and (max-width:450px) {
+        padding:5px;
+    }
 }
 
 .p2{
+    padding-top: 10px;
     background-color: black;
     color: white;
     border: 2px solid black;
@@ -52,6 +90,10 @@ input{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    @media screen and (max-width:450px) {
+        width: 100%;
+    }
 }
 .photo{
     display: flex;

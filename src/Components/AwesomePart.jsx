@@ -10,11 +10,9 @@ const AwesomePart = () => {
 
     const cards = () => {
         return card.map((item, index) => (
-            // <div key={index} >
                 <div className='Better-future' key={index}>
                     <h2>{item.text1}</h2>
                     <p>{item.disc1}</p>
-                {/* </div>  */}
             </div>
         ));
     }

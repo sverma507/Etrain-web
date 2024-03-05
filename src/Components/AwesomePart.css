@@ -3,13 +3,23 @@
     width: 100%;
     display: flex;
     justify-content: center;
-    margin-bottom: 100px;
+    margin-bottom: 10px;
+
+    @media screen and (max-width:450px) {
+        /* height: 1000px;  */
+        flex-wrap: wrap; 
+        margin-bottom: 30px;
+    }
 }
 .Awesome-heading{
     height: 200px;
     font-size: 30px;
     margin-left: 40px;
     color: #2a3c4d ;
+
+    @media screen and (max-width:450px) {
+        margin-left: 0px;
+    }
 }
 .Awesome-paragraph{
    margin-top: 20px;
@@ -17,7 +27,7 @@
     font-size: 16px;
 }
 .button-read-more{
-    margin-top: 60px;
+    margin-top: 100px;
     margin-left: 40px;
     border:none;
     background:linear-gradient(to right,red,yellow);
@@ -26,18 +36,42 @@
     height:50px;
     color:white;
     text-align: center;
+
+    @media screen and (max-width:450px) {
+        margin-top: 20px;
+        
+    }
 }
+
+.cards{
+    height: 340px;
+    display:flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    margin-left: 60px;
+    color: #2a3c4d ;
+
+    @media screen and (max-width:450px) {
+        flex-wrap: wrap;
+        height: 430;
+    }
+}
+
 .Better-future{
 
     padding: 20px;
     height: 340px;
     width:270px;
-    /* padding: 2px; */
-    /* margin-left: 40px; */
+
+    @media screen and (max-width:450px) {
+        text-align: center;
+        padding: 0px;
+        height: 150px;
+        margin-left: 10px;
+    }
 }
 .Qualified-Trainers{
     width:230px;
-  
     margin-left: 40px;
 }
 .Job-Opportunity{
@@ -50,14 +84,7 @@
 .outer-Awesome{
     display: inline-flex;
 }
-.cards{
-    height: 70px;
-    display:flex;
-    justify-content: space-between;
-    margin-top: 60px;
-    margin-left: 60px;
-    color: #2a3c4d ;
-}
+
 .Better-future:hover{
     border:1px solid red;
     
