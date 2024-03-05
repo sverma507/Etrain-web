@@ -3,17 +3,23 @@
     height: 150px;
     text-align: center;
     text-decoration: rgb(117, 79, 28);
-
-    padding-top: 40px;
-
+    padding-top: 10px;
     border: 1px solid black;
     border-bottom-left-radius: 70%;
     background-color: rgb(0, 15, 48);
+
+    @media screen and (max-width:450px) {
+        width: 100%;
+        height: fit-content;
+        padding-top: 30px;
+    }
 }
 
 .heading-company-name {
     font-size: 30px;
     color: white;
+   
+    
 }
 
 .company-name {
@@ -26,6 +32,11 @@
     width: 200px;
     height: 150px;
     margin-top: 1px;
+    /* margin-bottom: 10px; */
+    @media screen and (max-width:450px) {
+        position: relative;
+        top: 50px;
+    }
 }
 
 .web-developer {
@@ -33,6 +44,9 @@
     text-align: center;
     font-weight: 800;
     margin-top: 20px;
+    @media screen and (max-width:450px) {
+        font-size: 30px;
+}
 
 }
 
@@ -42,7 +56,6 @@
     font-size: 16px;
 
     color: rgb(0, 15, 48);
-
 }
 
 .name-id-card {
@@ -59,24 +72,28 @@
     border: 1px solid black;
     border-top-right-radius: 80%;
     background-color: rgb(0, 15, 48);
-
+    @media screen and (max-width:450px) {
+        width: 100%;
+    }
 }
 
 .Idcard-outer {
-
     border: 1px solid black;
     width: 500px;
     height: 600px;
     margin-left: 20px;
     text-align: justify;
     background-color: bisque;
-
-
-
-
+    @media screen and (max-width:450px) {
+        width: 100%;
+        height:fit-content;
+        margin: 0px;
+    }
+    
 }
 .id-detail{
-    margin-left:175px
+    margin-left:175px;
+   
 }
 .dob-detail{
     margin-left:130px;
