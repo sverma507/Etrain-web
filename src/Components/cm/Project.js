@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Project.css";
-import Slide from "../cm/Slide.jpg";
+import Slide from "../cm/Slide.jpg"
 import Slide2 from "../cm/Slide2.jpg";
 import Slide3 from "../cm/Slide3.jpg";
 export default function Project() {
@@ -9,24 +9,24 @@ export default function Project() {
       <div className='main-part'>
         <div className='tesi'>
           <div className='Happy'>
-            <p className='p'>Tesimonials</p>
+            <div className='pe'>Tesimonials</div>
             <h2 className='h'>Happy student</h2>
           </div>
         </div>
       </div>
 
-      <div id="carouselExampleAutoplaying" class="carousel slide" className="cm-carousel" data-bs-ride="carousel">
+      <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
 
         <div class="carousel-inner">
           <div class="carousel-item active">
             <div className='row'>
               <div className='container'>
                 <div className='row-1text'>
-                  <p>Behold place was a multiply creeping creature his domin to thiren open void
+                  <div className='para'>Behold place was a multiply creeping creature his domin to thiren open void
                     hath herb divided divide creepeth living shall i call beginning
-                    third sea itself set</p>
-                  <h4>Michel Hashale</h4>
-                  <h5>  Sr. Web designer</h5>
+                    third sea itself set</div>
+                  <div className='heading-4'>Michel Hashale</div>
+                  <div className='heading-5'> Sr. Web designer</div>
                 </div>
               </div>
               <div className='container-2'>
@@ -41,11 +41,11 @@ export default function Project() {
             <div className='row'>
               <div className='container'>
                 <div className='row-1text'>
-                  <p>Behold place was a multiply creeping creature his domin to thiren open void
+                  <div className='para'>Behold place was a multiply creeping creature his domin to thiren open void
                     hath herb divided divide creepeth living shall i call beginning
-                    third sea itself set</p>
-                  <h4>Michel Hashale</h4>
-                  <h5> Sr. Web designer</h5>
+                    third sea itself set</div>
+                  <div className='heading-4'>Michel Hashale</div>
+                  <div className='heading-5'> Sr. Web designer</div>
                 </div>
               </div>
               <div className='container-2'>
@@ -60,11 +60,11 @@ export default function Project() {
             <div className='row'>
               <div className='container'>
                 <div className='row-1text'>
-                  <p>Behold place was a multiply creeping creature his domin to thiren open void
+                  <div className='para'>Behold place was a multiply creeping creature his domin to thiren open void
                     hath herb divided divide creepeth living shall i call beginning
-                    third sea itself set</p>
-                  <h4>Michel Hashale</h4>
-                  <h5> Sr. Web designer</h5>
+                    third sea itself set</div>
+                  <div className='heading-4'>Michel Hashale</div>
+                  <div className='heading-5'> Sr. Web designer</div>
                 </div>
               </div>
               <div className='container-2'>
@@ -86,6 +86,5 @@ export default function Project() {
         </button>
       </div>
     </div>
-
   )
 }
