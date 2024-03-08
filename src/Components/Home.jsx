@@ -5,14 +5,13 @@ import Button from "./Button.jsx";
 function Home() {
     return (
         <>
-
             <div className="header-outer">
                 <div>
                     <div className="heading1">
                         <h6 className="heading1"> EVERY CHILD YEARNS TO LEARN</h6>
                     </div>
                     <div className="heading2">
-                        <h1>Making Yours Childs <br></br>World Better</h1>
+                        Making Yours Childs <br></br>World Better
                     </div>
                     <div className="paragraph">
                         Replenish seasons may male hath
@@ -26,7 +25,7 @@ function Home() {
                 </div>
 
                 <div className="home-img">
-                    <img src={headerimg} alt="Home image" className="home-img" />
+                    {/* <img src={headerimg} alt="Home image" className="home-img" /> */}
                 </div>
             </div>
         </>

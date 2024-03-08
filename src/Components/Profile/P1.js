@@ -35,7 +35,7 @@ function P1(props) {
                 <div className='info-box'>
                   <label>Address:</label><input type='text' className='in-box' name='address' onChange={go_to} placeholder='Hisar,Haryana...'/>
                 </div> 
-                 <div className='btn' onClick={()=>{props.data_from_parent(c_info);console.log("info=>",c_info);}}>PROFILE</div>    
+                 <div className='btn profile-btn' onClick={()=>{props.data_from_parent(c_info);console.log("info=>",c_info);}}>PROFILE</div>    
             </div>
         </div>
    </>

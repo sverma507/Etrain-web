@@ -10,9 +10,9 @@ const AwesomePart = () => {
 
     const cards = () => {
         return card.map((item, index) => (
-                <div className='Better-future' key={index}>
-                    <h2>{item.text1}</h2>
-                    <p>{item.disc1}</p>
+            <div className='Better-future' key={index}>
+                <h2>{item.text1}</h2>
+                <p>{item.disc1}</p>
             </div>
         ));
     }
@@ -28,10 +28,9 @@ const AwesomePart = () => {
                     </div>
                     <button className="button-read-more">read more</button>
                 </div>
-               
-                    <div className='cards'>{cards()}</div>
-                </div>
-         
+                <div className='cards'>{cards()}</div>
+            </div>
+
 
 
 
