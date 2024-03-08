@@ -71,7 +71,7 @@ function Navbar() {
     <>
       <div className='navbar-outer'>
         <div className='navbar-1'></div>
-        <div className={dropdown ?"navbar-2" :"navbar-2-show"} id='navbar-2'>       
+        <div className={dropdown ?"navbar-2" :"dropdown-show"} id='navbar-2'>       
             <div className='navbar-item' onClick={go_home}>Home</div>
             <div className='navbar-item' onClick={go_About}> About</div>
             <div className='navbar-item' onClick={go_courses}>Courses</div>
@@ -84,7 +84,7 @@ function Navbar() {
                 <button className='navbar-btn '>Get A Quote</button>
             </div>
         </div>
-        <div className={dropdown ?"navbar-2-hidden" :"navbar-2-hidden-false"} id='navbar-2-hidden' onClick={go_dropdown} >
+        <div className={dropdown ?"menu-btn-show" :"menu-btn-hide"} id='navbar-2-hidden' onClick={go_dropdown} >
           <i class="fa-solid fa-bars"></i>
         </div>
       </div>
