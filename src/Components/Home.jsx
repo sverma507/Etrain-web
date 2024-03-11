@@ -6,7 +6,7 @@ function Home() {
     return (
         <>
             <div className="header-outer">
-                <div>
+                <div className="header-1">
                     <div className="heading1">
                         <h6 className="heading1"> EVERY CHILD YEARNS TO LEARN</h6>
                     </div>
