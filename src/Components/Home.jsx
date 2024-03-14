@@ -11,7 +11,7 @@ function Home() {
                         <h6 className="heading1"> EVERY CHILD YEARNS TO LEARN</h6>
                     </div>
                     <div className="heading2">
-                        Making Yours Childs <br></br>World Better
+                        Making Yours Childs Testing build<br></br>World Better
                     </div>
                     <div className="paragraph">
                         Replenish seasons may male hath
