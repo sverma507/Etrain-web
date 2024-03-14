@@ -10,8 +10,8 @@ export default function Count() {
             <div className='count-col'>
                 <div className='counter'>
                
-                     <div className='count-counter'>1024
-                      
+                     <div className='count-counter'>
+                        <div><CountUp end={1024}/></div>
                       </div> 
                      
                     <div className='count-text'> All Teacher </div>
@@ -20,21 +20,27 @@ export default function Count() {
            <div className='count-col'>
                 <div className='counter'>
                   
-                    <span className='count-counter'>960</span>
+                    <span className='count-counter'>
+                    <div><CountUp end={960}/></div>
+                    </span>
                     <div className='count-text'> All Student </div>
                 </div>
             </div>
             <div className='count-col'>
                 <div className='counter'>
                
-                    <span className='count-counter'>1019</span>
+                    <span className='count-counter'>
+                    <div><CountUp end={1019}/></div>
+                    </span>
                     <div className='count-text'> Online Student  </div>
                 </div>
             </div>
             <div className='count-col'>
                 <div className='counter'>
                 
-                    <span className='count-counter'>819</span>
+                    <span className='count-counter'>
+                    <div><CountUp end={819}/></div>
+                    </span>
                     <div className='count-text'> Ofline Student </div>
                 </div>
             </div>

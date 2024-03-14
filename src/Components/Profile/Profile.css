@@ -12,8 +12,14 @@
         height:fit-content;
         justify-content:start;
         padding: 10px;
-        
     }
+
+    @media screen and (min-width:451px) and (max-width:800px) {
+        justify-content:  space-between;
+        padding: 10px;
+
+    }
+
 }
 
 
@@ -33,6 +39,11 @@
        height: 50%; 
        margin-bottom: 20px;
     }
+
+    @media screen and (min-width:451px) and (max-width:800px) {
+        width: 50%;
+        padding: 10px;
+    }
 }
 
 .form-heading{
@@ -44,6 +55,7 @@
     @media screen and (max-width:450px) {
         font-size: 20px;
     }
+
 }
 
 .get-data{
@@ -67,16 +79,32 @@
         font-size: 15px;
         width: 300px;
     }
+
+    @media screen and (min-width:451px) and (max-width:800px) {
+        width: 95%;
+    }
+    
 }
 
-input{
+.in-box{
     padding: 10px;
     height: 20px;
     margin-left: 20px;
-
+    width: 100%;
     @media screen and (max-width:450px) {
         padding:5px;
     }
+}
+
+.profile-btn{
+    cursor:pointer;
+    color: white;
+    padding: 20px;
+    width: 150px;
+    border-radius: 30px;
+    border: none;
+    background-image:  linear-gradient(to left, #ee390f 0%, #f9b700 51%, #ee390f 100%);
+
 }
 
 .p2{
@@ -93,6 +121,10 @@ input{
 
     @media screen and (max-width:450px) {
         width: 100%;
+    }
+
+    @media screen and (min-width:451px) and (max-width:800px) {
+        width: 45%;
     }
 }
 .photo{

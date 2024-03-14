@@ -1,4 +1,4 @@
-.footer{
+/* .footer{
   display: flex;
   justify-content: space-between;
   padding: 70px 70px;
@@ -54,4 +54,85 @@ margin-top: 20px;
   font-size: 20px;
   font-weight: 600;
   margin-right: 10px;
+} */
+
+
+
+
+.footer{
+  display: flex;
+  justify-content: space-between;
+  padding: 70px 70px;
+  width: 100%;
+  border: 2px solid black;
+  background-color: rgb(193, 195, 196);
+}
+
+.col-1{
+  width: 300px;
+  height: 200px;
+}
+
+.footer-logo{
+  height: 50px;
+  width: 200px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url('../Assets/etrain-logo.png');
+  /* background-color: aqua; */
+}
+
+.foot-text{
+  width: 100%;
+  margin-top: 20px;
+}
+
+.news-letter-heading{
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.foot-input{
+  width: 90%;
+margin-top: 20px;
+  padding: 20px;
+
+  @media screen and (max-width:1000px) {
+    padding: 10px;
+  }
+
+}
+
+.foot-contact{
+  display: flex;
+}
+.foot-h{
+  font-size: 20px;
+  font-weight: 600;
+  margin-right: 10px;
+}
+@media screen and (max-width: 768px) {
+  .footer {
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content: center;
+  }
+
+  .col-1 {
+    height: 200px;
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .footer {
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content: center;
+  }
+
+  .col-1 {
+    height: 200px;
+    margin-bottom:10px;
+  }
 }

@@ -28,12 +28,14 @@ function Blog() {
   return (
     <>
       <div className='heading-our-courses'>
+           <div className='black-shade'>
             <div className='our-courses-1'>
-                Our Blog
-            </div>
-            <div className='our-courses-2'>
-                Home/Blog
-            </div>
+                    Our Blog
+                </div>
+                <div className='our-courses-2'>
+                    Home/Blog
+                </div>
+           </div>
         </div>
         <div className='sec-2'>
             <div className='sec-2-a'>Our Blog</div>

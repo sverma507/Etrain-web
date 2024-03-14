@@ -31,11 +31,13 @@ function Courses() {
     return (
     <>
         <div className='heading-our-courses'>
-            <div className='our-courses-1'>
-                Our Courses
-            </div>
-            <div className='our-courses-2'>
-                Home/Courses
+            <div className='black-shade'>
+                <div className='our-courses-1'>
+                    Our Courses
+                </div>
+                <div className='our-courses-2'>
+                    Home/Courses
+                </div>
             </div>
         </div>
         <div className='sec-2'>
