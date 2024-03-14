@@ -9,7 +9,7 @@ function Home() {
             <div className="header-outer">
                 <div>
                     <div className="heading1">
-                        <h6 className="heading1"> EVERY CHILD YEARNS TO LEARN</h6>
+                        <h6 className="heading1"> EVERY CHILD YEARNS TO LEARN build testing</h6>
                     </div>
                     <div className="heading2">
                         <h1>Making Yours Childs <br></br>World Better</h1>
