@@ -19,18 +19,18 @@ import {
 function App() {
   return (
     <Router>
-        <Navbar/>
+        {/* <Navbar/> */}
         <Routes>
             <Route
               exact
               path='/'
               element={ <>
                         <Home />
-                        <Courses />
+                        {/* <Courses />
                         <AwesomePart />
                         <Free/>
                         <Count/>
-                        <Project/>
+                        <Project/> */}
                         </>
                       }
             ></Route>
@@ -76,7 +76,7 @@ function App() {
               }
             ></Route>
         </Routes>
-        <Footer/>
+        {/* <Footer/> */}
     </Router>
     
   );
